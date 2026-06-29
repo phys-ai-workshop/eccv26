@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phys-ai-workshop.github.io/eccv26/sitemap.xml
