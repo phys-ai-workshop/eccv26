@@ -21,17 +21,17 @@ window.PHYSAI_SPEAKERS = [
 ];
 
 window.PHYSAI_ORGANIZERS = [
-  { name: "Yushi Lan",           aff: "University of Oxford (VGG)",        role: "Postdoc",                      photo: "assets/organizers/yushi_lan.jpg",           url: "https://nirvanalan.github.io/" },
-  { name: "Zeren Jiang",         aff: "University of Oxford (VGG)",        role: "DPhil",                        photo: "assets/organizers/zeren_jiang.jpg",         url: "https://jzr99.github.io/" },
-  { name: "Ruining Li",          aff: "University of Oxford (VGG)",        role: "DPhil",                        photo: "assets/organizers/ruining_li.jpg",          url: "https://ruiningli.com/" },
+  { name: "Yushi Lan",           aff: "Oxford VGG",                        role: "Postdoc",                      photo: "assets/organizers/yushi_lan.jpg",           url: "https://nirvanalan.github.io/" },
+  { name: "Zeren Jiang",         aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/zeren_jiang.jpg",         url: "https://jzr99.github.io/" },
+  { name: "Ruining Li",          aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/ruining_li.jpg",          url: "https://ruiningli.com/" },
   { name: "Chuhan Zhang",        aff: "Google DeepMind",                   role: "Senior Research Scientist",    photo: "assets/organizers/chuhan_zhang.jpg",        url: "https://chuhanxx.github.io/" },
   { name: "Yitong Xia",          aff: "NTU (Physical Vision Group)",       role: "PhD",                          photo: "assets/organizers/yitong_xia.jpg",          url: "https://physicalvision.github.io/" },
-  { name: "Yiming Chen",         aff: "University of Oxford (VGG)",        role: "DPhil",                        photo: "assets/organizers/yiming_chen.jpg",         url: "https://yimingc9.github.io/" },
-  { name: "Iro Laina",           aff: "University of Oxford (VGG)",        role: "Lecturer",                     photo: "https://limitlab.xyz/members/iro.laina-256x256.jpg", url: "https://eng.ox.ac.uk/people/iro-laina" },
+  { name: "Yiming Chen",         aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/yiming_chen.jpg",         url: "https://yimingc9.github.io/" },
+  { name: "Iro Laina",           aff: "Oxford VGG",                        role: "Lecturer",                     photo: "https://limitlab.xyz/members/iro.laina-256x256.jpg", url: "https://eng.ox.ac.uk/people/iro-laina" },
   { name: "Diane Larlus",        aff: "NAVER LABS Europe",                 role: "Principal Research Scientist", photo: "assets/organizers/diane_larlus.jpg",        url: "https://dlarlus.github.io/" },
   { name: "Siyu Tang",           aff: "ETH Zurich",                        role: "Assistant Professor",          photo: "assets/organizers/siyu_tang.jpg",           url: "https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html" },
   { name: "Xingang Pan",         aff: "NTU (MMLab)",                       role: "Assistant Professor",          photo: "assets/organizers/xingang_pan.jpg",         url: "https://xingangpan.github.io/" },
-  { name: "Christian Rupprecht", aff: "University of Oxford (VGG)",        role: "Associate Professor",          photo: "assets/organizers/christian_rupprecht.jpg", url: "https://chrirupp.github.io/" },
+  { name: "Christian Rupprecht", aff: "Oxford VGG",                        role: "Associate Professor",          photo: "assets/organizers/christian_rupprecht.jpg", url: "https://chrirupp.github.io/" },
   { name: "Chuanxia Zheng",      aff: "NTU (Physical Vision Group)",       role: "Assistant Professor",          photo: "assets/organizers/chuanxia_zheng.jpg",      url: "https://chuanxiaz.com/" },
-  { name: "Andrea Vedaldi",      aff: "University of Oxford (VGG) / Meta", role: "Professor",                    photo: "assets/organizers/andrea_vedaldi.jpg",      url: "https://www.robots.ox.ac.uk/~vedaldi/" },
+  { name: "Andrea Vedaldi",      aff: "Oxford VGG / Meta",                role: "Professor",                    photo: "assets/organizers/andrea_vedaldi.jpg",      url: "https://www.robots.ox.ac.uk/~vedaldi/" },
 ];
