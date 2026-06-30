@@ -30,8 +30,8 @@ window.PHYSAI_ORGANIZERS = [
   { name: "Iro Laina",           aff: "Oxford VGG",                        role: "Lecturer",                     photo: "https://limitlab.xyz/members/iro.laina-256x256.jpg", url: "https://eng.ox.ac.uk/people/iro-laina" },
   { name: "Diane Larlus",        aff: "NAVER LABS Europe",                 role: "Principal Research Scientist", photo: "assets/organizers/diane_larlus.jpg",        url: "https://dlarlus.github.io/" },
   { name: "Siyu Tang",           aff: "ETH Zurich",                        role: "Assistant Professor",          photo: "assets/organizers/siyu_tang.jpg",           url: "https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html" },
-  { name: "Xingang Pan",         aff: "NTU (MMLab)",                       role: "Assistant Professor",          photo: "assets/organizers/xingang_pan.jpg",         url: "https://xingangpan.github.io/" },
   { name: "Christian Rupprecht", aff: "Oxford VGG",                        role: "Associate Professor",          photo: "assets/organizers/christian_rupprecht.jpg", url: "https://chrirupp.github.io/" },
+  { name: "Xingang Pan",         aff: "NTU (MMLab)",                       role: "Assistant Professor",          photo: "assets/organizers/xingang_pan.jpg",         url: "https://xingangpan.github.io/" },
   { name: "Chuanxia Zheng",      aff: "NTU (Physical Vision Group)",       role: "Assistant Professor",          photo: "assets/organizers/chuanxia_zheng.jpg",      url: "https://chuanxiaz.com/" },
   { name: "Andrea Vedaldi",      aff: "Oxford VGG / Meta",                role: "Professor",                    photo: "assets/organizers/andrea_vedaldi.jpg",      url: "https://www.robots.ox.ac.uk/~vedaldi/" },
 ];
