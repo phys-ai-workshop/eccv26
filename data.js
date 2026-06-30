@@ -27,6 +27,7 @@ window.PHYSAI_ORGANIZERS = [
   { name: "Chuhan Zhang",        aff: "Google DeepMind",                   role: "Senior Research Scientist",    photo: "assets/organizers/chuhan_zhang.jpg",        url: "https://chuhanxx.github.io/" },
   { name: "Yitong Xia",          aff: "NTU (Physical Vision Group)",       role: "PhD",                          photo: "assets/organizers/yitong_xia.jpg",          url: "https://physicalvision.github.io/" },
   { name: "Yiming Chen",         aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/yiming_chen.jpg",         url: "https://yimingc9.github.io/" },
+  { name: "Yihang Luo",          aff: "NTU MMLab",                         photo: "https://yihangluo.com/assets/avatar.jpg",    url: "https://yihangluo.com/" },
   { name: "Iro Laina",           aff: "Oxford VGG",                        role: "Lecturer",                     photo: "https://limitlab.xyz/members/iro.laina-256x256.jpg", url: "https://eng.ox.ac.uk/people/iro-laina" },
   { name: "Diane Larlus",        aff: "NAVER LABS Europe",                 role: "Principal Research Scientist", photo: "assets/organizers/diane_larlus.jpg",        url: "https://dlarlus.github.io/" },
   { name: "Siyu Tang",           aff: "ETH Zurich",                        role: "Assistant Professor",          photo: "assets/organizers/siyu_tang.jpg",           url: "https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html" },
