@@ -415,6 +415,27 @@ img { max-width: 100%; display: block; }
 .schedule-row.head .time { color: #fff; }
 .schedule-row.break { background: #faf7f0; color: var(--ink-soft); }
 
+/* ----- CALL FOR PAPERS ----- */
+.cfp-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.cfp-banner {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  background: linear-gradient(120deg, #eef3ff, #f3eeff);
+  border: 1px solid #d7dff6;
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  color: var(--ink-soft);
+}
+.cfp-banner strong { color: var(--ink); }
+.cfp-dates { background: #fff; }
+
 /* ----- CHALLENGE ----- */
 .challenge-banner {
   display: flex;
@@ -599,6 +620,7 @@ img { max-width: 100%; display: block; }
   .people-grid.speakers-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .people-grid.compact { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .tracks { grid-template-columns: 1fr; }
+  .cfp-grid { grid-template-columns: 1fr; }
   .meta { grid-template-columns: repeat(2, 1fr); }
   .contact-card { grid-template-columns: 1fr; }
   .contact-side { border-left: none; border-top: 1px solid var(--line); padding-left: 0; padding-top: 24px; }
