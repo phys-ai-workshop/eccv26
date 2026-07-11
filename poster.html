@@ -61,7 +61,7 @@
   }
 
   h1{
-    font-size:48px; line-height:1.03; letter-spacing:-.03em; font-weight:900;
+    font-size:42px; line-height:1.05; letter-spacing:-.03em; font-weight:900;
     margin:18px 0 0;
   }
   h1 .grad{
@@ -143,8 +143,12 @@
 
   @media print{
     @page{ size:A4; margin:0; }
-    body{ background:#fff; padding:0; }
-    .page{ box-shadow:none; }
+    html,body{ width:210mm; height:297mm; overflow:hidden; }
+    body{ background:#fff; padding:0; display:block; }
+    .page{ width:210mm; height:297mm; box-shadow:none; break-after:page; }
+    *{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    /* Chrome can print gradient text as a filled rectangle; use a reliable ink color. */
+    h1 .grad{ background:none; -webkit-background-clip:border-box; background-clip:border-box; color:var(--grad-b); -webkit-text-fill-color:var(--grad-b); }
   }
 
 </style>
