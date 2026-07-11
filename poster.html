@@ -61,14 +61,13 @@
   }
 
   h1{
-    font-size:42px; line-height:1.05; letter-spacing:-.03em; font-weight:900;
+    font-size:32px; line-height:1.08; letter-spacing:-.03em; font-weight:900;
     margin:18px 0 0;
   }
   h1 .grad{
-    background:linear-gradient(120deg,var(--grad-a) 0%,var(--grad-b) 55%,var(--grad-c) 100%);
-    -webkit-background-clip:text; background-clip:text; color:transparent;
+    background:none; color:var(--grad-b); -webkit-text-fill-color:var(--grad-b);
   }
-  .lede{ font-size:13.5px; line-height:1.5; color:var(--ink-soft); margin:14px 0 0; max-width:175mm; }
+  .lede{ font-size:14.5px; line-height:1.5; color:var(--ink-soft); margin:14px 0 0; max-width:175mm; }
 
   /* meta row */
   .meta{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:16px; }
@@ -137,8 +136,7 @@
   .stamp{ text-align:right; font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--ink-muted); line-height:1.6; }
   .stamp .big{
     font-family:'Inter',sans-serif; font-weight:900; font-size:20px; letter-spacing:-.02em;
-    background:linear-gradient(120deg,var(--grad-a),var(--grad-b) 60%,var(--grad-c));
-    -webkit-background-clip:text; background-clip:text; color:transparent; display:block;
+    color:var(--grad-b); -webkit-text-fill-color:var(--grad-b); display:block;
   }
 
   @media print{
@@ -147,8 +145,6 @@
     body{ background:#fff; padding:0; display:block; }
     .page{ width:210mm; height:297mm; box-shadow:none; break-after:page; }
     *{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-    /* Chrome can print gradient text as a filled rectangle; use a reliable ink color. */
-    h1 .grad{ background:none; -webkit-background-clip:border-box; background-clip:border-box; color:var(--grad-b); -webkit-text-fill-color:var(--grad-b); }
   }
 
 </style>
