@@ -11,6 +11,7 @@ window.PHYSAI_SPEAKERS = [
   { name: "Kristen Grauman",   aff: "UT Austin",                      photo: "assets/speakers/kristen_grauman.jpg",   url: "https://www.cs.utexas.edu/~grauman/" },
   { name: "Marc Pollefeys",    aff: "ETH Zurich / Microsoft",         photo: "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/Marc-952x1024.jpg", url: "https://people.inf.ethz.ch/marc.pollefeys/" },
   { name: "Matthias Nießner",  aff: "TU Munich",                      photo: "assets/speakers/matthias_niessner.jpg", url: "https://www.niessnerlab.org/" },
+  { name: "Mike Roberts",      aff: "Adobe Research",                 photo: "assets/speakers/mike_roberts.jpg",      url: "https://mikeroberts3000.github.io/" },
   { name: "Ming-Yu Liu",       aff: "NVIDIA Cosmos Lab",              photo: "assets/speakers/mingyu_liu.jpg",        url: "https://mingyuliu.net/" },
   // { name: "Noah Snavely",   aff: "Cornell Tech / Google DeepMind", photo: "assets/speakers/noah_snavely.jpg",      url: "https://www.cs.cornell.edu/~snavely/" },
   { name: "Vincent Sitzmann",  aff: "MIT",                            photo: "assets/speakers/vincent_sitzmann.jpg",  url: "https://www.vincentsitzmann.com/" },
@@ -23,6 +24,8 @@ window.PHYSAI_SPEAKERS = [
 window.PHYSAI_ORGANIZERS = [
   { name: "Yushi Lan",           aff: "Oxford VGG",                        role: "Postdoc",                      photo: "assets/organizers/yushi_lan.jpg",           url: "https://nirvanalan.github.io/" },
   { name: "Zeren Jiang",         aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/zeren_jiang.jpg",         url: "https://jzr99.github.io/" },
+  { name: "Angel He",            aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/angel_he.jpg",            url: "https://7angel4.github.io/index.html" },
+  { name: "Kelvin Li",           aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/kelvin_li.jpg",           url: "https://openreview.net/profile?id=~Kelvin_Li1" },
   { name: "Ruining Li",          aff: "Oxford VGG",                        role: "DPhil",                        photo: "assets/organizers/ruining_li.jpg",          url: "https://ruiningli.com/" },
   { name: "Chuhan Zhang",        aff: "Google DeepMind",                   role: "Senior Research Scientist",    photo: "assets/organizers/chuhan_zhang.jpg",        url: "https://chuhanxx.github.io/" },
   { name: "Yitong Xia",          aff: "NTU (Physical Vision Group)",       role: "PhD",                          photo: "assets/organizers/yitong_xia.jpg",          url: "https://physicalvision.github.io/" },
